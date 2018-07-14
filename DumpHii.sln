@@ -1,0 +1,19 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E3F68A76-18C1-4571-9122-B2358DE15F31}") = "DumpHii", "DumpHii.vcxproj", "{7C097686-8149-43B8-9D5F-B00FDFD4653C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C097686-8149-43B8-9D5F-B00FDFD4653C}.Debug|x86.ActiveCfg = Debug|Win32
+		{7C097686-8149-43B8-9D5F-B00FDFD4653C}.Debug|x86.Build.0 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
