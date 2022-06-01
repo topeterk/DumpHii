@@ -25,14 +25,7 @@ This source is based on [EDKII](https://github.com/tianocore/edk2) which is requ
 
 ### How to integrate into EDKII
 It is recommended to place the software at **ShellPkg/Application/DumpHii/** within the EDKII source.  
-This allows using one of those examples building with _Shell_ or _Nt32_ package..
-
-#### Building with Shell package
-Add this to you _ShellPkg.dsc_:
->&nbsp;&nbsp;ShellPkg/Application/DumpHii/DumpHii.inf
-
-#### Building with NT32 package
-Add this to you _Nt32.dsc_:
+Add this to your DSC file like _ShellPkg.dsc_ , _EmulatorPgk.dsc_ or _Nt32.dsc_ under the **[Components]** section:
 >&nbsp;&nbsp;ShellPkg/Application/DumpHii/DumpHii.inf
   
   

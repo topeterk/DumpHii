@@ -1,3 +1,5 @@
-*.suo
-*.sdf
+/.vs
+/*.sdf
+/*.user
 /Debug
+/Release

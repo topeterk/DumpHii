@@ -1,6 +1,6 @@
 /** @file
 
-  Copyright (c) 2018, Peter Kirmeier <topeterk@freenet.de>. All rights reserved.
+  Copyright (c) 2022, Peter Kirmeier <topeterk@users.noreply.github.com>. All rights reserved.
 
   This program and the accompanying materials
   are licensed and made available under the terms and conditions of the BSD License
@@ -45,7 +45,7 @@ DumpHiiEntryPoint(
 
     DEBUG((EFI_D_INFO, "DumpHiiEntryPoint()\n"));
 
-	Print(L"  Running Dump HII v1.0\n  by Peter Kirmeier\n  https://github.com/topeterk/DumpHii \n\n");
+	Print(L"  Running Dump HII v1.1\n  by Peter Kirmeier\n  https://github.com/topeterk/DumpHii \n\n");
 
 	if (PcdGetBool(PcdShellLibAutoInitialize) == 0)
 	{

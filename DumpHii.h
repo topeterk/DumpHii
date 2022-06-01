@@ -1,6 +1,6 @@
 /** @file
 
-  Copyright (c) 2018, Peter Kirmeier <topeterk@freenet.de>. All rights reserved.
+  Copyright (c) 2022, Peter Kirmeier <topeterk@users.noreply.github.com>. All rights reserved.
 
   This program and the accompanying materials
   are licensed and made available under the terms and conditions of the BSD License
@@ -12,12 +12,11 @@
 
 **/
 
-#ifndef __SHELL_DYN_DUMP_HII_H__
-#define __SHELL_DYN_DUMP_HII_H__
+#ifndef __SHELL_DUMP_HII_H__
+#define __SHELL_DUMP_HII_H__
 
 #include <Uefi.h>
 
-#include <Protocol/ShellDynamicCommand.h>
 #include <Protocol/HiiDatabase.h>
 
 #include <Library/UefiLib.h> // Print()
@@ -32,4 +31,4 @@ ShellLibConstructorWorker(
 	IN EFI_SYSTEM_TABLE  *SystemTable
 	);
 
-#endif /* __SHELL_DYN_DUMP_HII_H__ */
+#endif /* __SHELL_DUMP_HII_H__ */
