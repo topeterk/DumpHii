@@ -30,6 +30,7 @@ EFI_HII_DATABASE_PROTOCOL * pHiiDbProtocol;
 
 **/
 EFI_STATUS
+EFIAPI
 DumpHiiEntryPoint(
   IN EFI_HANDLE        ImageHandle,
   IN EFI_SYSTEM_TABLE  *SystemTable
