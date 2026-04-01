@@ -1,6 +1,6 @@
 /** @file
 
-  Copyright (c) 2022, Peter Kirmeier <topeterk@users.noreply.github.com>. All rights reserved.
+  Copyright (c) 2022-2026, Peter Kirmeier <topeterk@users.noreply.github.com>. All rights reserved.
 
   This program and the accompanying materials
   are licensed and made available under the terms and conditions of the BSD License
@@ -26,9 +26,9 @@
 #include <Library/DebugLib.h>
 
 EFI_STATUS
-ShellLibConstructorWorker(
-	IN EFI_HANDLE        ImageHandle,
-	IN EFI_SYSTEM_TABLE  *SystemTable
-	);
+ShellLibConstructorWorker (
+  IN EFI_HANDLE        ImageHandle,
+  IN EFI_SYSTEM_TABLE  *SystemTable
+  );
 
 #endif /* __SHELL_DUMP_HII_H__ */
